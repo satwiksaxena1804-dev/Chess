@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS chess;
+USE chess;
+
+CREATE TABLE IF NOT EXISTS chess_games (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    game_date DATETIME NOT NULL,
+    moves_list JSON NOT NULL
+);
