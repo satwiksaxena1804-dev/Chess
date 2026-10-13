@@ -109,6 +109,3 @@ Chess/
 └── requirements.txt     # Python dependencies
 ```
 
-## Security note
-
-Keep your real database password in `.env`. Never commit `.env` or paste a real password into source code. The included `.env.example` contains blank/sample settings only.
